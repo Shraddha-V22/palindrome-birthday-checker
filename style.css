@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+:root {
+  --primary-first: #d9b7a5;
+  --primary-second: #381100;
+  
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+  text-align: center;
+  background-color: var(--primary-first);
+  margin-top: 3rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#heading {
+  color: var(--primary-second); 
+  margin-bottom: 3rem;
+}
+
+label {
+  font-weight: bold;
+  color: var(--primary-second);
+}
+
+#birth-date {
+  display: block;
+  width: 225px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--primary-second);
+}
+
+#check-btn {
+  margin: 0.5rem;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  font-size: 15px;
+  border-radius: 0.2rem;
+  border: 2px solid var(--primary-second);
+  color: var(--primary-first);
+  background-color: var(--primary-second);
+}
+
+#check-btn:hover {
+  color: var(--primary-second);
+  background-color: var(--primary-first);
+  cursor: pointer;
+}
+
+#output {
+  padding: 1.5rem;
+  font-size: large;
+}
+
+#footer {
+  background-color: var(--primary-second);
+  padding: 0.2rem 0rem 0.7rem 0rem;
+  position: absolute;
+  bottom: 0px;
+  width: 100%; 
+  padding-inline-start: 0px;
+}
+
+#footer #list {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+#footer #list .social {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.ionicons {
+  color: var(--primary-first);
+  font-size: 32px;
+}
